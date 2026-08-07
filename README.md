@@ -75,5 +75,3 @@ This project was created to practice relational database design and SQL queries 
 👩🏽‍💻 Author
 
 Benjamina Mbaki
-
-GitHub: Benjamina-Mbaki
