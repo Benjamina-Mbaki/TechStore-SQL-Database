@@ -178,7 +178,8 @@ GROUP BY Orders.order_id;
 -- TOTAL SALES
 -- ============================================
 
-SELECT SUM(Order_Items.quantity * Products.price) AS total_sales FROM Order_Items JOIN Products ON Order_Items.product_id = Products.product_id;
+SELECT SUM(Order_Items.quantity * Products.price) AS total_sales
+FROM Order_Items JOIN Products ON Order_Items.product_id = Products.product_id;
 
 -- ============================================
 -- MOST EXPENSIVE PRODUCT
