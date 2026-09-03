@@ -61,8 +61,7 @@ CREATE TABLE Order_Items (
 -- INSERT CUSTOMERS
 -- ============================================
 
-INSERT INTO Customers
-(first_name, last_name, email, phone, city, created_at)
+INSERT INTO Customers (first_name, last_name, email, phone, city, created_at)
 VALUES
 ('Sarah', 'Mokoena', 'sarah@example.com', '0712345678', 'Johannesburg', '2026-01-10'),
 ('Daniel', 'Smith', 'daniel@example.com', '0723456789', 'Pretoria', '2026-01-15'),
