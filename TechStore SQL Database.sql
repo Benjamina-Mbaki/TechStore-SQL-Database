@@ -73,8 +73,7 @@ VALUES
 -- INSERT PRODUCTS
 -- ============================================
 
-INSERT INTO Products
-(product_name, category, price, stock_quantity)
+INSERT INTO Products (product_name, category, price, stock_quantity)
 VALUES
 ('Laptop Pro 15', 'Laptops', 15999.99, 10),
 ('Wireless Mouse', 'Accessories', 399.99, 50),
