@@ -88,8 +88,7 @@ VALUES
 -- INSERT ORDERS
 -- ============================================
 
-INSERT INTO Orders
-(customer_id, order_date, status)
+INSERT INTO Orders (customer_id, order_date, status)
 VALUES
 (1, '2026-03-10', 'Completed'),
 (2, '2026-03-12', 'Completed'),
