@@ -100,8 +100,7 @@ VALUES
 -- INSERT ORDER ITEMS
 -- ============================================
 
-INSERT INTO Order_Items
-(order_id, product_id, quantity)
+INSERT INTO Order_Items (order_id, product_id, quantity)
 VALUES
 (1, 1, 1),
 (1, 2, 2),
