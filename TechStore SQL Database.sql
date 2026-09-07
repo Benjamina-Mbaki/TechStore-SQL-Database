@@ -187,8 +187,7 @@ SELECT * FROM Products ORDER BY price DESC LIMIT 1;
 -- NUMBER OF PRODUCTS IN EACH CATEGORY
 -- ============================================
 
-SELECT
-    category,
+SELECT category,
     COUNT(*) AS number_of_products
 FROM Products GROUP BY category;
 
